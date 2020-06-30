@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: repeating-linear-gradient(to left,  #45ba83,  #049790 );
+
+    
+}
+
+.formu-cont{
+    margin: 77px auto; 
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 3px 30px 8px  #2c8059;    
+}
+.head{
+    grid-column: 9/13;
+    grid-row: 1/2;
+    overflow: hidden;
+    width: 100%;
+}
+h2{
+    font-size: 1em;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: end;   
+}
+h2:hover{
+    scale: 1.03;
+}
+.aaa{
+    text-decoration: none;
+    color: #084047;
+    font-weight: bold;
+}
+.titulo{
+    grid-column: 3/11;
+    grid-row: 3/6;
+}
+.titulo-login{
+    font-size: 2em;
+    font-weight: bold;
+    color: #084047;
+}
+.container{
+    grid-column: 3/11;
+    grid-row: 6/10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/*Colocamos los iconos dentro del input*/
+.form-section{
+    text-align: center;
+    position: relative;
+    padding: 15px 0px;
+    width: 100%;
+  
+    
+}
+.form-section .fas{
+    position: absolute;
+    padding: 7px 10px;
+    color: #000;
+    
+} 
+.form-section input{
+    padding-left: 30px;
+    border-radius: 30px ;
+    height: 30px;
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 2px #475c52 solid;
+    
+}
+.form-section input:hover{
+    background: repeating-linear-gradient(to top, #049790, transparent);
+}
+.form-section-b{
+    padding: 10px 0px;
+    width: 100%;
+   
+}
+.form-boton{
+    width: 100%;
+    border-radius: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px #475c52 solid;
+}
+.form-boton:hover{
+    scale: 1.05;
+}
+/*Fin del chiste*/
+.form-olvi{
+    grid-column: 1/10;
+    grid-row: 12/13;
+    overflow: hidden;
+    width: 100%;
+}
+.titulo3{
+    font-size: 1em;
+    padding: 5px;
+    width: 100%;
+    text-align: start;
+    font-weight: bold;
+}
+.titulo3:hover{
+    scale: 1.03;
+}
